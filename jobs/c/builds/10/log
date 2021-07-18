@@ -1,0 +1,24 @@
+Started by user [8mha:////4KMaSTtstUb5caJGDU+BaFHh3mQrQAZIrOwuVyrXBpSgAAAAmR+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzuEgZe/dLi1CL9gqLSkoyyTAB6xbZKwgAAAA==[0mPruthvi A S
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/c
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/c/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/puthvias/jenkins.git # timeout=10
+Fetching upstream changes from https://github.com/puthvias/jenkins.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.32.0'
+ > git fetch --tags --force --progress -- https://github.com/puthvias/jenkins.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 4296540dc4539a50723925f59d1bb85cfb3909a5 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 4296540dc4539a50723925f59d1bb85cfb3909a5 # timeout=10
+Commit message: "adding to git hun"
+ > git rev-list --no-walk 4296540dc4539a50723925f59d1bb85cfb3909a5 # timeout=10
+[c] $ /bin/sh -xe /tmp/jenkins6660630809545226862.sh
++ cd /var/lib/jenkins/workspace/
++ make
+make: *** No targets specified and no makefile found.  Stop.
+Build step 'Execute shell' marked build as failure
+Finished: FAILURE
